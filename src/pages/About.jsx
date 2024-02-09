@@ -9,7 +9,7 @@ const About = () => {
     <section id="about" className="flex h-screen flex-col justify-start">
       <h1 className="numbered-title">
         <span>01.</span>
-        <span>About Me</span>
+        <span>Sobre Mim</span>
       </h1>
       <div className="my-10 flex flex-col items-center justify-center  gap-x-5 md:flex-row md:items-start">
         <div className="flex flex-col gap-y-5 md:w-2/3">
