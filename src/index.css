@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-navy text-light-slate;
+}
+
+h1 {
+  @apply text-lightest-slate;
+}
+
+.numbered-title {
+  span {
+    @apply mr-2 font-mono text-xl text-green;
+  }
+
+  span:last-child {
+    @apply text-xl font-bold text-lightest-slate md:text-2xl;
+  }
+}
+
+@layer base {
+  .font-calibre {
+    font-family: "Calibre", sans-serif;
+  }
+
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-san-francisco {
+    font-family:
+      "San Francisco",
+      "SF Pro Text",
+      -apple-system,
+      system-ui,
+      sans-serif;
+  }
+}
+
+.text-underline {
+  @apply mx-1 cursor-pointer text-green decoration-green hover:underline;
+}
