@@ -11,10 +11,10 @@ const Home = () => {
       <h2 className="text-3xl font-bold text-light-slate md:text-6xl">
         Eu construo coisas para a web.
       </h2>
-      <p className="mt-10">
+      <p className="mt-10 w-2/3 text-start text-lg text-light-slate">
         Eu sou um desenvolver web com mais de tres anos de experiencia. Focado
         em entregar maravilhosas experienciais digitais, atualmente estou focado
-        no frontend e suas maravilhas!
+        no frontend e suas maravilhas.
       </p>
     </section>
   );
