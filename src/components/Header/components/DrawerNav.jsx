@@ -27,6 +27,9 @@ const CloseButton = ({ toggleDrawer }) => {
 };
 
 const DrawerNav = ({ toggleDrawer }) => {
+  const handleLinkClick = () => {
+    toggleDrawer();
+  };
   return (
     <Drawer
       open={open}
@@ -41,6 +44,7 @@ const DrawerNav = ({ toggleDrawer }) => {
             key={link.url}
             href={link.url}
             className="rounded-md px-4 py-2 font-mono text-lg text-lightest-slate hover:text-green"
+            onClick={handleLinkClick}
           >
             <span className=" text-green">{link.index}.</span>
             <span className="ml-1">{link.name}</span>
