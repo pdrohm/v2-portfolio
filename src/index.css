@@ -10,16 +10,13 @@ h1 {
   @apply text-lightest-slate;
 }
 
-.numbered-title {
-  span {
-    @apply mr-2 font-mono text-xl text-green;
-  }
-
-  span:last-child {
-    @apply text-xl font-bold text-lightest-slate md:text-2xl;
-  }
+.numbered-title span {
+  @apply mr-2 font-mono text-xl text-green;
 }
 
+.numbered-title span:last-child {
+  @apply text-xl font-bold text-lightest-slate md:text-2xl;
+}
 @layer base {
   .font-calibre {
     font-family: "Calibre", sans-serif;

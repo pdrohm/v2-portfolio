@@ -6,13 +6,16 @@ const Experience = () => {
   const [selectedTab, setSelectedTab] = useState(0);
 
   return (
-    <div className="mt-96 flex h-screen flex-col md:mt-0 xl:px-20">
+    <section
+      className="mt-96 flex h-screen flex-col px-10 md:mt-0 2xl:px-32"
+      id="experience"
+    >
       <h1 className="numbered-title mb-14">
         <span>02.</span>
         <span>Onde trabalhei</span>
       </h1>
-      <div className="flex flex-col gap-x-10 md:flex-row">
-        <div className="flex w-full font-mono md:flex-col">
+      <div className="flex flex-col gap-y-2 md:flex-row md:gap-x-2 md:gap-y-0">
+        <div className="flex font-mono md:flex-col">
           {experiences.map((experience, index) => (
             <div
               key={index}
@@ -23,7 +26,7 @@ const Experience = () => {
             </div>
           ))}
         </div>
-        <div className="mt-4">
+        <div>
           <h1 className="flex flex-col gap-x-2 text-lg font-semibold md:flex-row">
             {experiences[selectedTab].position}
             <span className=" text-green">
@@ -52,7 +55,7 @@ const Experience = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

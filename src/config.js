@@ -6,7 +6,7 @@ const navLinks = [
   },
   {
     name: "Experience",
-    url: "#jobs",
+    url: "#experience",
     index: "02",
   },
   {
@@ -120,4 +120,51 @@ const experiences = [
   },
 ];
 
-export { experiences, navLinks, techs };
+import despachanteImage from "./assets/despachanteImage.png";
+import phflixImage from "./assets/phflixImage.png";
+import apolloImage from "./assets/apolloImage.png";
+
+const projects = [
+  {
+    id: 1,
+    title: "Despachante Beto",
+    description:
+      "Site utilizado para portfolio e captacao de clientes e leeds para o maior despachante de Tubarao, SC. Alem de integracao com whatsapp, o formulario de contatos esta integrado ao Google Sheets.",
+    techs: ["React", "TailWindCSS", "Vite"],
+    link: "https://despachantebeto.com.br/",
+    coverImage: despachanteImage,
+    githubLink: "https://github.com/pdrohm/despachantebeto",
+  },
+  {
+    id: 2,
+    title: "PHFlix",
+    description:
+      "Copia da UI de um dos mais famosos Streamings atuais, o Netflix. O usuario pode navegar e visualizar series, filmes e desenhos. Contem design responsivo e foi utilizado com os dados da API TMDB.",
+    techs: ["React", "CSS", "JavaScript"],
+    link: "https://phflix-ashy.vercel.app/",
+    coverImage: phflixImage,
+    githubLink: "https://github.com/pdrohm/phflix",
+  },
+  {
+    id: 3,
+    title: "Apollo Soluções Solares",
+    description:
+      "A empresa tem uma solução que deve mudar o jeito que no Brasil as empresas de energia solar mede, controlam e armazenam dados solares, garantindo uma melhor tomada de decisão.",
+    techs: ["React", "TailwindCSS", "JavaScript"],
+    link: "https://apollo-website.onrender.com/",
+    coverImage: apolloImage,
+    githubLink: "https://github.com/pdrohm/apollows",
+  },
+];
+
+const otherProjects = [
+  {
+    title: "Star Wars Character Finder",
+    description:
+      "Integrado a API de starwars, foi um dos primeiros projetos que fiz para treino.",
+    techs: ["React", "TailWindCSS", "SWApi", "Vercel"],
+    link: "https://starwars-nine-nu.vercel.app/",
+    githubLink: "https://github.com/pdrohm/starwars",
+  },
+];
+export { navLinks, techs, experiences, projects, otherProjects };
