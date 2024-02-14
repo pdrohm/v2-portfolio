@@ -1,21 +1,21 @@
 const navLinks = [
   {
-    name: "About",
+    name: "Sobre",
     url: "#about",
     index: "01",
   },
   {
-    name: "Experience",
+    name: "Experiências",
     url: "#experience",
     index: "02",
   },
   {
-    name: "Work",
+    name: "Projetos",
     url: "#projects",
     index: "03",
   },
   {
-    name: "Contact",
+    name: "Contato",
     url: "#contact",
     index: "04",
   },

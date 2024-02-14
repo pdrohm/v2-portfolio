@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="relative w-12 h-12 border-4 items-center justify-center flex ml-10">
+    <div className="relative ml-10 flex h-12 w-12 items-center justify-center border-2 border-green hover:text-green">
       PH
     </div>
   );
