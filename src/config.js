@@ -159,12 +159,31 @@ const projects = [
 
 const otherProjects = [
   {
+    id: 1,
     title: "Star Wars Character Finder",
     description:
       "Integrado a API de starwars, foi um dos primeiros projetos que fiz para treino.",
     techs: ["React", "TailWindCSS", "SWApi", "Vercel"],
     link: "https://starwars-nine-nu.vercel.app/",
     githubLink: "https://github.com/pdrohm/starwars",
+  },
+  {
+    id: 2,
+    title: "PHBank",
+    description:
+      "Simples CRUD desenvolvido a UI com React, implementado filtro de CPF, busca e cadastro de CEP e validacoes de formulario.",
+    techs: ["React", "Symfony", "PHP"],
+    link: "",
+    githubLink: "",
+  },
+  {
+    id: 3,
+    title: "GOBank",
+    description:
+      "Simples CRUD desenvolvido com a linguagem GO, servindo de aprendizado e introducao na linguagem.",
+    techs: ["GO"],
+    link: "",
+    githubLink: "https://github.com/pdrohm/goBank",
   },
 ];
 export { navLinks, techs, experiences, projects, otherProjects };

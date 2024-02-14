@@ -3,7 +3,7 @@ import React from "react";
 import ProjectCover from "./ProjectCover";
 import ProjectData from "./ProjectData";
 
-const Project = ({ project }) => {
+const MainProject = ({ project }) => {
   return (
     <div className="relative my-14 flex w-full flex-row justify-center">
       <ProjectCover project={project} />
@@ -12,4 +12,4 @@ const Project = ({ project }) => {
   );
 };
 
-export default Project;
+export default MainProject;
