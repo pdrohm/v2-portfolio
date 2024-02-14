@@ -123,6 +123,8 @@ const experiences = [
 import despachanteImage from "./assets/despachanteImage.png";
 import phflixImage from "./assets/phflixImage.png";
 import apolloImage from "./assets/apolloImage.png";
+import { VscGithubAlt } from "react-icons/vsc";
+import { FiLinkedin } from "react-icons/fi";
 
 const projects = [
   {
@@ -130,7 +132,7 @@ const projects = [
     title: "Despachante Beto",
     description:
       "Site utilizado para portfolio e captacao de clientes e leeds para o maior despachante de Tubarao, SC. Alem de integracao com whatsapp, o formulario de contatos esta integrado ao Google Sheets.",
-    techs: ["React", "TailWindCSS", "Vite"],
+    techs: ["React", "TailWindCSS", "Vite", "Hostinger"],
     link: "https://despachantebeto.com.br/",
     coverImage: despachanteImage,
     githubLink: "https://github.com/pdrohm/despachantebeto",
@@ -140,7 +142,7 @@ const projects = [
     title: "PHFlix",
     description:
       "Copia da UI de um dos mais famosos Streamings atuais, o Netflix. O usuario pode navegar e visualizar series, filmes e desenhos. Contem design responsivo e foi utilizado com os dados da API TMDB.",
-    techs: ["React", "CSS", "JavaScript"],
+    techs: ["React", "CSS", "JavaScript", "Vercel"],
     link: "https://phflix-ashy.vercel.app/",
     coverImage: phflixImage,
     githubLink: "https://github.com/pdrohm/phflix",
@@ -150,7 +152,7 @@ const projects = [
     title: "Apollo Soluções Solares",
     description:
       "A empresa tem uma solução que deve mudar o jeito que no Brasil as empresas de energia solar mede, controlam e armazenam dados solares, garantindo uma melhor tomada de decisão.",
-    techs: ["React", "TailwindCSS", "JavaScript"],
+    techs: ["React", "TailwindCSS", "JavaScript", "Render"],
     link: "https://apollo-website.onrender.com/",
     coverImage: apolloImage,
     githubLink: "https://github.com/pdrohm/apollows",
@@ -186,4 +188,15 @@ const otherProjects = [
     githubLink: "https://github.com/pdrohm/goBank",
   },
 ];
-export { navLinks, techs, experiences, projects, otherProjects };
+
+const socials = [
+  {
+    icon: VscGithubAlt,
+    link: "https://github.com/pdrohm",
+  },
+  {
+    icon: FiLinkedin,
+    link: "https://www.linkedin.com/in/pdrohm/",
+  },
+];
+export { navLinks, techs, experiences, projects, otherProjects, socials };

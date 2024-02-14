@@ -1,8 +1,8 @@
 import React from "react";
 
-const CoverMobile = ({ project }) => {
-  return <div className="block md:hidden">TESTE</div>;
-};
+// const CoverMobile = ({ project }) => {
+//   return <div className="block md:hidden">TESTE</div>;
+// };
 
 const CoverDesktop = ({ project }) => {
   return (
@@ -10,7 +10,7 @@ const CoverDesktop = ({ project }) => {
       <a href={project.link} target="_blank">
         <img
           src={project.coverImage}
-          className="object-fill grayscale saturate-0 filter transition duration-200 ease-in-out hover:filter-none"
+          className="rounded-sm object-fill grayscale saturate-0 filter transition duration-200 ease-in-out hover:filter-none "
           alt="Project Cover"
         />
       </a>

@@ -17,7 +17,7 @@ const Navbar = () => {
         </a>
       ))}
 
-      <Button title={"Curriculo"} />
+      <Button title={"CV"} />
     </nav>
   );
 };

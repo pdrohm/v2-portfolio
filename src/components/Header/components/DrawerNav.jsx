@@ -50,7 +50,7 @@ const DrawerNav = ({ toggleDrawer }) => {
             <span className="ml-1">{link.name}</span>
           </a>
         ))}
-        <Button title={"Curriculo"} />
+        <Button title={"CV"} />
       </div>
     </Drawer>
   );

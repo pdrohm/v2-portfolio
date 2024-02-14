@@ -39,3 +39,7 @@ h1 {
 .text-underline {
   @apply mx-1 cursor-pointer text-green decoration-green hover:underline;
 }
+
+.button-hover {
+  @apply hover:-translate-x-1 hover:-translate-y-1 hover:border-b-4 hover:border-r-4;
+}
