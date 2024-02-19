@@ -199,4 +199,5 @@ const socials = [
     link: "https://www.linkedin.com/in/pdrohm/",
   },
 ];
+
 export { navLinks, techs, experiences, projects, otherProjects, socials };
