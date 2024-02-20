@@ -1,4 +1,6 @@
-import { useSpring } from "react-spring";
+import { useSpring, config } from "react-spring";
+import { useInView } from "@react-spring/web";
+import { useState } from "react";
 
 export const useHomeAnimation = () => {
   const spanAnimation = useSpring({
@@ -30,4 +32,14 @@ export const useHomeAnimation = () => {
   });
 
   return { spanAnimation, h1Animation, h2Animation, pAnimation };
+};
+
+export const useInfoAnimation = () => {
+  const infoAnimation = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    delay: 1000,
+  });
+
+  return { infoAnimation };
 };
