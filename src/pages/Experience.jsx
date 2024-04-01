@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <FadeIn>
       <section
-        className="mt-96 flex h-screen flex-col px-10 md:mt-0 2xl:px-32"
+        className="my-96 flex flex-col md:mt-20 2xl:px-32"
         id="experience"
       >
         <h1 className="numbered-title mb-14">
@@ -46,7 +46,7 @@ const Experience = () => {
 
             <ul className="text-md mt-5 flex flex-col font-mono">
               {experiences[selectedTab].description.map((sentence) => (
-                <li key={sentence.sentence} className="h-25 my-1 flex gap-x-1">
+                <li key={sentence.sentence} className="my-1 flex gap-x-1">
                   <div>
                     <GoTriangleRight color={"#64ffda"} size={20} />
                   </div>

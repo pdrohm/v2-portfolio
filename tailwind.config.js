@@ -23,6 +23,9 @@ module.exports = withMT({
       fontFamily: {
         mono: ["SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "monospace"],
       },
+      screens: {
+        "3xl": "1600px",
+      },
     },
   },
   plugins: [],

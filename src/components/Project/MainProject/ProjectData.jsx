@@ -4,12 +4,12 @@ import { VscGithubAlt } from "react-icons/vsc";
 
 const DataMobile = ({ project }) => {
   return (
-    <div className="w- flex w-4/5 flex-col gap-y-5 rounded-sm bg-light-navy p-6 md:hidden">
+    <div className="flex w-full flex-col gap-y-5 rounded-sm bg-light-navy p-6 md:hidden">
       <h1 className="text-xl font-semibold text-lightest-slate">
         {project.title}
       </h1>
       <p>{project.description}</p>
-      <div className="flex gap-x-4 font-mono text-sm">
+      <div className="flex flex-wrap gap-x-4 font-mono text-sm">
         {project.techs.map((tech) => (
           <span key={tech}>{tech}</span>
         ))}

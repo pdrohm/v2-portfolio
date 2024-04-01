@@ -8,7 +8,7 @@ import FadeIn from "../components/FadeIn/FadeIn";
 const About = () => {
   return (
     <FadeIn>
-      <section id="about" className="flex h-screen flex-col justify-start">
+      <section id="about" className="flex  flex-col justify-start md:h-screen">
         <h1 className="numbered-title">
           <span>01.</span>
           <span>Sobre Mim</span>
